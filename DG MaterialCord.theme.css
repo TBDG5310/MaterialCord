@@ -1,0 +1,365 @@
+//META{"name":"DG MaterialCord","description":"This is a Material theme for Discord, heavily based on Google's Material Theme. Anyone is welcome to contact me with some help as I am quite new to CSS.","author":"TBHItzDG/lixm.jb","version":"1.1.0"}*//{}
+
+
+/* |||| Spotify Controls Plugin  |||| */
+
+.container-6sXIoE {
+    position: relative;
+    background: #1DB954;
+    border-radius: 25px;
+    padding-bottom: 70px;
+    margin-bottom: -65px;
+}
+
+.cover-SwJ-ck {
+    border-radius: 25px;
+}
+
+.maximized-vv2Wr0 {
+    border-radius: 25px;
+}
+
+/* ||||  Title Bar  |||| */
+
+.typeWindows-1za-n7 {
+    background: #292b2f;
+}
+
+/* ||||  Server Settings  |||| */
+
+.menu-3sdvDG {
+    position: relative;
+    width: 260px;
+    top: -40px;
+}
+
+
+
+/* ||||  Spotify  |||| */
+
+.headerSpotify-zpWxgT .activity-11LB_k {
+  position: relative;
+  padding: 0 !important; }
+
+.assetsLargeImage-eYwpTX {
+  border-radius: 50%; }
+
+.topSectionStreaming-1Tpf5X .assetsLargeImage-eYwpTX {
+  border-radius: var(--border-radius); }
+
+.headerSpotify-zpWxgT .headerTextNormal-2mGWX3 {
+  display: none !important; }
+
+.headerSpotify-zpWxgT .bodyNormal-2D39hT {
+  padding: 10px 10px 0 10px !important; }
+
+.headerSpotify-zpWxgT .contentImagesUserPopout-1vLdRA {
+  margin: 6px 0 0 10px; }
+
+.headerSpotify-zpWxgT .contentImagesUserPopout-1vLdRA .anchor-3Z-8Bb,
+.activityProfile-2bJRaP .content-3JfFJh .anchor-3Z-8Bb {
+  color: #e0e0e0 !important; }
+
+.headerSpotify-zpWxgT .timeBarUserPopout-AWPFf2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin: 0; }
+
+.headerSpotify-zpWxgT .timeBarUserPopout-AWPFf2 .flex-1xMQg5 {
+  position: absolute !important;
+  flex: 0 !important;
+  width: 80px !important;
+  top: -16px !important;
+  right: 2px !important;
+  opacity: 0;
+  transition: 200ms ease all; }
+
+.headerSpotify-zpWxgT:hover .timeBarUserPopout-AWPFf2 .flex-1xMQg5 {
+  opacity: 1; }
+
+.headerSpotify-zpWxgT .textLeft-3EZXG6,
+.headerSpotify-zpWxgT .textRight-1XO5Ye {
+  width: 32px;
+  min-width: 32px; }
+
+.headerSpotify-zpWxgT .textLeft-3EZXG6 {
+  display: inline-block;
+  position: relative;
+  margin: 0 16px 0 0;
+  flex: 0 !important;
+  text-align: right; }
+
+.headerSpotify-zpWxgT .textLeft-3EZXG6:after {
+  position: absolute;
+  content: " / ";
+  left: 38px; }
+
+.headerSpotify-zpWxgT .listeningActionsUserPopout-Ga2V_N {
+  padding: 0 10px 10px 10px; }
+
+.headerSpotify-zpWxgT .bar-3urHkF,
+.headerSpotify-zpWxgT .barInner-3NDaY_ {
+  border-radius: 0; }
+
+.listenAlongIcon-2vb1HG {
+  color: var(--spotify-color); }
+
+.listenAlongIcon-2vb1HG path {
+  d: path("M5 15v-3h3v-2H5V7H3v3H0v2h3v3zm7-1.25c-2.34 0-7 1.17-7 3.5V19h14v-1.75c0-2.33-4.66-3.5-7-3.5zM7.34 17c.84-.58 2.87-1.25 4.66-1.25s3.82.67 4.66 1.25H7.34zM12 12c1.93 0 3.5-1.57 3.5-3.5S13.93 5 12 5 8.5 6.57 8.5 8.5 10.07 12 12 12zm0-5c.83 0 1.5.67 1.5 1.5S12.83 10 12 10s-1.5-.67-1.5-1.5S11.17 7 12 7zm5 5c1.93 0 3.5-1.57 3.5-3.5S18.93 5 17 5c-.24 0-.48.02-.71.07.76.94 1.21 2.13 1.21 3.43 0 1.3-.47 2.48-1.23 3.42.24.05.48.08.73.08zm2.32 2.02c1 .81 1.68 1.87 1.68 3.23V19h3v-1.75c0-1.69-2.44-2.76-4.68-3.23z") !important; }
+
+
+
+/* ||||  User Profiles  |||| */
+
+.userPopout-3XzG_A {
+    border-radius: 25px;
+}
+
+.flex-1xMQg5.flex-1O1GKY.da-flex {
+    border-radius: 25px;
+}
+
+
+/* ||||  Server List  |||| */
+
+.scroller-2TZvBN {
+    background-color: #2f3136;
+	border-radius: 0 25px 25px 0;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	margin-top: 12px;
+}
+
+
+/* |||| Settings  |||| */
+
+/* My Account */
+
+.userInfoViewing-16kqK3 {
+    border-radius: 25px;
+}
+
+.userInfoViewingButton-2-jbH9 {
+    border-radius: 25px;
+}
+
+
+/* General Stuff */
+
+.sidebarRegionScroller-3MXcoP {
+    background: #202225;
+    margin-right: 900px;
+    border-right: 100px;
+}
+.sidebarRegion-VFTUkN.da-sidebarRegion {
+    margin-right: -900px;
+}
+.sidebar-CFHs90e.da-sidebar {
+    background: #2f3136;
+}
+
+.contentRegionScroller-26nc1e {
+    background: #292b2f;
+}
+
+.contentColumn-2hrIYH {
+    margin-right: 850px ;
+}
+
+.da-contentColumn {
+    margin-right: 700px;
+}
+
+
+/* ||||  Not sorted |||| */
+
+.sidebar-2K8pFh.da-sidebar.hasNotice-1XRy4h.da-hasNotice {
+    border-radius: 25px;
+}
+
+.panels-j1Uci_.da-panels {
+    border-radius: 25px;
+}
+
+.container-PNkimc.da-container {
+    border-radius: 25px;
+}
+
+.sidebar-2K8pFh.da-sidebar {
+    border-radius: 25px;
+    width: 260px;
+    margin: 10px;
+}
+
+/* ||||  Members List  |||| */
+
+.members-1998pB {
+  border-radius: 25px;
+}
+.membersWrap-2h-GB4, .members-1998pB {
+  left: 15px;
+  margin-left: -2.5px;
+  padding-top: 35px;
+  margin-top: -35px;
+  margin-right: 15px
+}
+.chat-3bRxxu {
+  background: var(--background-tertiary);
+}
+.chatContent-a9vAAp {
+  background-color: var(--background-primary);
+  border-radius: 25px;
+  left: 25px;
+  margin-right: 10px;
+  margin-top: -35px;
+  margin-left: -25px
+}
+
+
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+   border-radius: 25px;
+}
+
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+   position: relative;
+   left: 0px;
+   padding-right: 15px
+}
+
+/* ||||  Channels List  |||| */
+
+.container-1giJp5 {
+    position: relative;
+    background: #2f3136;
+	border-radius: 25px;
+    padding-bottom: 70px;
+    margin-bottom: -65px;
+}
+
+.container-3baos1 {
+	position: relative;
+	background: #292b2f;
+	border-radius: 25px;
+	margin-bottom: -2px;
+}
+
+.panel-24C3ux {
+	position: relative;
+    border-radius: 25px;
+    padding-bottom: 80px;
+    margin-bottom: -70px;
+}
+
+.button-1YfofB.da-button.buttonColor-7qQbGO.da-buttonColor.button-38aScr.da-button.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN.da-grow {
+    border-radius: 25px;
+    background: #36393f;
+}
+
+/* ||||  Chat stuff  |||| */
+
+/* Dm's */
+
+.messagesWrapper-1sRNjr {
+    margin-right: 10px;
+}
+
+/* Main */
+
+.sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {
+    margin-bottom: 4px;
+}
+
+.content-yTz4x3 {
+    padding-right: 0px;
+}
+
+.chat-3bRxxu {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.title-3qD0b-.da-title {
+    border-radius: 25px;
+    background: #292b2f;
+}
+
+.header-2o-2hj {
+    border-radius: 25px;
+    background: #292b2f;
+}
+
+/* ||||  Chatbox  |||| */
+
+.scrollableContainer-2NUZem {
+	position: relative;
+    background: #292b2f;
+    max-height: 37vh;
+  	border-radius: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+    padding-right: 12px;
+}
+
+.form-2fGMdU.da-form {
+    border-radius: 25px;
+}
+
+/* Typing */
+
+.typing-2GQL18 {
+	z-index: 4;
+    margin-bottom: -1px;
+    margin-left: 0px;
+    padding-top: 4px
+}
+
+.base-gE7OpD {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+/* Background */
+
+
+
+.scrollableContainer-2NUZem::-webkit-scrollbar {
+    display: none;
+
+}
+
+.form-2fGMdU {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.characterCount-1cRDo2 {
+	z-index: 3;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: -3px;
+	border-radius: 24px;
+}
+
+.theme-dark .form-2fGMdU:before {
+	background: transparent;
+}
+
+/* Text Align */
+
+.slateTextArea-1Mkdgw {
+    text-align: left;
+	margin-left: 0px;
+}
+
+.placeholder-37qJjk {
+    left: 0px;
+}
