@@ -2,7 +2,7 @@
 This is a Material theme for Discord, heavily based on Google's Material Theme. 
 
 
-![Example](https://imgur.com/Thvjky0.png)
+[Example](https://imgur.com/Thvjky0.png)
 
 # About theme
 The main idea for this theme is to create a pleasing User Interface while also staying true to the default look to Discord.
