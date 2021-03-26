@@ -1,4 +1,4 @@
-## MaterialCord
+# MaterialCord
 This is a Material theme for Discord, heavily based on Google's Material Theme. 
 
 
