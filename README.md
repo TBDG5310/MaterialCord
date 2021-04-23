@@ -18,4 +18,4 @@
 ## User Profile
 <img src="https://imgur.com/Q9oUI39.png">
 
-- I'd just like to mention, if anyone would like to see any of my past work on this theme over the last half a year, the old home for the base css file can be found in my [GitHub pages](https://github.com/TBDG5310/tbdg5310.github.io)
+- I'd just like to mention, if anyone would like to see any of my past work on this theme over the last half a year, the old home for the base css file can be found in my [GitHub pages](https://github.com/TBDG5310/tbdg5310.github.io) repo!
