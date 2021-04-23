@@ -9,6 +9,7 @@
 ## What is the main idea behind this theme?
 - The main idea behind this theme is to visualise what Discord could look like if it embraced the new "Material Standard" like other companies have.
 
+# Previews
 <img src="https://imgur.com/LQ1M1DA.png">
 
 ## Settings
