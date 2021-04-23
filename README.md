@@ -4,8 +4,11 @@
 
 # MaterialCord
 ## What does it do?
-- MaterialCord improves upon the classic Discord UI while staying true to the colors of Vanilla Discord.
-- With it, there are multiple new things, such as Settings icons, User profile revamp, 
+- The aim of MaterialCord is to give Discord a Material aesthetic while still trying to stay true to the vanilla look of the client. What comes with the theme you may ask? With this theme, Discord now has a bubbly/round design to it, and anywhere where vanilla Discord fails to keep a unified design, this theme will rectify it.
+
+## What is the main idea behind this theme?
+- The main idea behind this theme is to visualise what Discord could look like if it embraced the new "Material Standard" like other companies have.
+
 <img src="https://imgur.com/KozdxzZ.png">
 
 # User Profile
