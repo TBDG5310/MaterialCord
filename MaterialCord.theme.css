@@ -1,0 +1,20 @@
+/**
+ * @name MaterialCord
+ * @author TBDG
+ * @version 1.2.2
+ * @description This theme aims to deliver what I think Discord and Material Design together could look like, without drastically changing the current looks of Discord. Loosley based on Google's Material Design and others.
+ * @authorId 262068640013090819
+ * @website https://tbdg5310.github.io/
+ * @updateUrl https://raw.githack.com/TBDG5310/BetterDiscord/master/Themes/MaterialCord/MaterialCord.theme.css
+*/
+
+@import url("https://raw.githack.com/TBDG5310/MaterialCord/master/source/MaterialCord.css");
+@import url("https://tbdg5310.github.io/addons/MaterialCons/MaterialCons.theme.css");
+@import url("https://tbdg5310.github.io/addons/WindowsTitleBar/WindowsTitleBar.css");
+
+:root {
+    --border-radius-main: 25px;
+    --border-radius-alt: 12.5px;
+
+    --blurple: rgb(114, 137, 218);
+}
