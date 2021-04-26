@@ -804,8 +804,8 @@
 
 /* ----------  Channels List  ---------- */
 
-.platform-win .sidebar-2K8pFh {border-radius: var(--border-radius-main);width: 240px;margin: 10px;margin-left: 10px;padding-top: 0px;}
-.platform-win .sidebar-2K8pFh.hasNotice-1XRy4h {border-radius: var(--border-radius-main);width: 240px;margin: 10px;margin-left: 10px;padding-top: 0px;}
+.platform-win .sidebar-2K8pFh, .platform-web .sidebar-2K8pFh {border-radius: var(--border-radius-main);width: 240px;margin: 10px;margin-left: 10px;padding-top: 0px;}
+.platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-web .sidebar-2K8pFh.hasNotice-1XRy4h {border-radius: var(--border-radius-main);width: 240px;margin: 10px;margin-left: 10px;padding-top: 0px;}
 .containerDefault--pIXnN {border-radius: var(--border-radius-main);}
 .content-1Wq3SX {border-radius: var(--border-radius-main);}
 .content-1x5b-n {border-radius: var(--border-radius-main);}
