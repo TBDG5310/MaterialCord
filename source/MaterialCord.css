@@ -2211,6 +2211,7 @@
 .container-1giJp5 [aria-label="Disconnect"]:hover .contents-18-Yxp path {fill: #f04747}
 .actionButtons-14eAc_ .button-1YfofB:hover {
     background: #43b581 !important;
+    border-radius: var(--border-radius-main)
 }
 /* -----  Server Indicators  ----- */
 
