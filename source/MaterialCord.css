@@ -3,9 +3,8 @@
 /*  Hello! This little Categories section will help you navigate this large file a lot 
     easier. Each indent represents a sub-category. You can easily search for each and
     every category and sub-category using Ctrl + F on any browser.
-
+    
 /*  1. Vars
-
     2. Main Stuff
             ^Main Chat Stuff
                 ^Chat Area
@@ -44,6 +43,7 @@
                 ^Members List
                 ^Channels List
                     ^Channels List Stuff
+                        ^Live Now Panel
                         ^Panels
                     ^Channels List Voice Stuff
                         ^Voice Activity
@@ -64,15 +64,13 @@
                     ^Closed Folder
                     ^Unread Mentions
                     ^Home Button
-
     
     3. Friends & DM's
+            ^Stages Tab
             ^Friends Tab
             ^Library Tab
             ^Nitro Tab
             ^Global Search Button
-
-
     4. User Profile Stuff
             ^User Profile Misc
                     ^Xbox Activity Fix
@@ -95,8 +93,6 @@
                 ^Bottom Half
                     ^Footer
                     ^Note Section
-
-
     5. Settings
             ^Main Settings
             ^Floating Settings
@@ -136,8 +132,6 @@
                 ^Community Membership Screening
                 ^Community Welcome Screen
                 ^Server Rules Info Tab
-
-
     6. Supported Plugins
             ^Plugin/Theme Repo
             ^InAppNotifications
@@ -145,8 +139,6 @@
             ^SpotifyControls
             ^ImageUtilities
             ^GoogleTranslateOption
-
-
     7. Extras
             ^Titlebar Watermark
             ^Top Notice's
@@ -171,8 +163,6 @@
                 ^Server Cards
             ^Dropdown Menus
                 ^Theme Repo Generator
-
-
     8. BetterDiscord Stuff
             ^BD Addon Error
             ^Zlib Plugin Updates
@@ -183,19 +173,8 @@
             ^BD Plugin/Theme Card Footer
             ^BD Plugin/Theme Title Area
             ^Open Theme/Plugin Folder
-
-
     9. Main Colour Stuff
-
-
     10. TBS (To Be Sorted)
-
-
-
-
-
-
-
 */
 
 /* ----------------------------------------  Vars  ---------------------------------------- */
@@ -258,21 +237,9 @@
 }
 
 :root {
-    --border-radius-main: 25px;
-    --border-radius-alt: 12.5px;
-
     --blurple: rgb(114, 137, 218);
 }
 
-.theme-dark {
-    --background-guilds: #292b2f; /* Default is background-secondary-alt #292b2f */
-    --background-channels: #2f3136; /* Default is background-secondary #2f3136 */
-    --background-chat: #36393f; /* Default is background-primary #36393f */
-    --background-members: #2f3136; /* Default is background-secondary #2f3136 */
-
-    --background-settings-sidebar: #292b2f; /* Default is background-secondary-alt #292b2f */
-    --background-settings-content: #36393f; /* Default is background-primary #36393f */
-}
 
 
 
@@ -339,7 +306,7 @@
     margin-left: -25px
 }
 .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {border-radius: var(--border-radius-main);}
-.container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {position: relative;left: 0px;padding-right: 15px}
+.container-1D34oG, .container-3Mxszk {position: relative;left: 0px;padding-right: 10px}
 .sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {margin-bottom: 4px;} 
 .content-yTz4x3:before {display: none;}
 .title-3qD0b-.container-1r6BKw {border-radius: var(--border-radius-main);background: var(--background-secondary-alt);}
@@ -445,7 +412,7 @@
     content: 'Hey, heads up! You are viewing older messages!';
     position: relative;
     color: white !important;
-    right: 180px;
+    right: 175px;
     height: 20px;
     bottom: 0px;
 }
@@ -848,6 +815,19 @@
 
 /* -----  Channels List Stuff  ----- */
 
+/* Live Now Panel */
+
+.channelNotice-2bJINM {
+    background: var(--background-secondary-alt);
+    margin: unset;
+    margin-top: -16px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: var(--border-radius-main);
+    border-bottom-right-radius: var(--border-radius-main);
+}
+
 /* Panels */
 .panel-24C3ux {
 	position: relative;
@@ -1188,7 +1168,40 @@
 
 /* ----------------------------------------  Friends & DM's  ---------------------------------------- */
 
-/* Friends Panel */
+/* Discover Tab */
+
+.container-1a3EgQ {
+    margin: 10px 10px 10px 0;
+    border-radius: var(--border-radius-main)
+}
+.stageSection-3mAD8V {
+    margin-top: 10px;
+    border-radius: var(--border-radius-main) !important;
+}
+
+/* Stages Tab */
+
+.headerBarContainer-31FKNA {
+    box-shadow: none;
+}
+.stageSection-3mAD8V .container-S9SaVf, .stageSection-3mAD8V .container-S9SaVf:hover,
+.stageSection-3mAD8V .container-2rNpDV {
+    border-radius: var(--border-radius-main);
+}
+.stageSection-3mAD8V .container-S9SaVf:hover {
+    background: var(--background-floating)
+}
+.illustration-h6_gtD {
+    border-top-left-radius: var(--border-radius-main);;
+}
+.stageSection-3mAD8V .container-S9SaVf .container-3yC5sj {
+    background: var(--background-secondary-alt) !important;
+    border-radius: var(--border-radius-main);
+    border: none;
+}
+
+
+/* Friends Tab */
 .emptyCard-1RJw8n {border-radius: var(--border-radius-main);}
 .searchBarComponent-32dTOx[type*="button"] {border-radius: var(--border-radius-main);}
 .layout-2DM8Md {border-radius: var(--border-radius-main);}
@@ -1196,8 +1209,15 @@
 .tabBar-ZmDY9v .item-3HknzM:hover {border-radius: 25px;}
 .item-3HknzM.item-PXvHYJ[aria-controls*="ADD_FRIEND-tab"] {border-radius: var(--border-radius-main);}
 .nowPlayingColumn-2sl4cE {background: var(--background-tertiary)}
-.itemCard-v9viV7 {border-radius: var(--border-radius-main);background: var(--background-secondary-alt)}
-.body-1ld4H7 {border-radius: var(--border-radius-alt);background: var(background-primary) !important;}
+.scroller-2ZPeAD {border-left: none !important;}
+.container-lRFx4q {background: var(--background-tertiary);margin-left: 0px;margin-top: 10px;border: unset;}
+.itemCard-v9viV7 {border-radius: var(--border-radius-main);background: var(--background-secondary-alt);border: none !important;}
+.separator-XqIyoz {display: none;}
+.body-1ld4H7.inset-3sAvek, .section-2gLsgF {border-radius: var(--border-radius-alt);background: transparent;}
+.section-2gLsgF {margin-bottom: 10px;background: var(--background-primary)}
+.section-2gLsgF:last-child {margin-bottom: 0px;}
+.section-2gLsgF:hover {background: var(--background-secondary)}
+.section-2gLsgF .applicationStreamingPreviewSize-3NIvhL {border-radius: var(--border-radius-alt) !important;}
 .layerContainer-yqaFcK {margin-right: 10px;}
 .group-spacing-16{margin-right: 10px;}
 .searchBarComponent-32dTOx {border-radius: var(--border-radius-main);}
@@ -1220,8 +1240,15 @@
     margin: 10px 10px 10px 0px;
     padding: unset;
 }
+.applicationStore-1pNvnv .scroller-9moviB {
+    margin-top: 10px;
+    border-radius: var(--border-radius-main);
+}
 .feature-2w65J5 {border-radius: var(--border-radius-main);}
 .stickerImageSection-7EUs8E {border-radius: 12.5px !important;}
+.homeWrapperNormal-2KSUEa, .applicationStore-1pNvnv {
+    background: none !important;
+}
 
 /* Global Search Button */
 .quickswitcher-3JagVE {border-radius: var(--border-radius-main);} 
@@ -1312,10 +1339,13 @@
 }
 .headerInfo-30uryT {
     background: var(--background-secondary);
-    border-radius: var(--border-radius-alt);
+    border-radius: var(--border-radius-main);
     margin-right: 0px;
     padding: 10px;
     padding-top: 0px;
+}
+.headerInfo-30uryT .nameTag-2IFDfL {
+    margin-top: 10px;
 }
 .root-SR8cQa {
     border-radius: var(--border-radius-main);
@@ -2150,6 +2180,9 @@
 /* BD */
 .notice-3bPHh- {
     border-radius: 25px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 /* Zlib */
@@ -2219,6 +2252,81 @@
 .iconBadge-3qSJIw.participating-1NvRVd {
     background: #1673f6;
 }
+.bottomControls-lIJyYL {
+    position: relative;
+    background: var(--background-secondary-alt);
+    border-radius: var(--border-radius-main);
+    bottom: -16px;
+}
+.controlIcon-35oS15 {
+    margin-left: 20px;
+}
+.raiseHandButton-1TZpXJ {
+    background:var(--background-floating) !important;
+}
+.raiseHandButton-1TZpXJ:hover {
+    filter: brightness(.9)
+}
+
+.roleContainer-8-Ld9g {
+    position: relative;
+    background: var(--background-secondary-alt);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: var(--border-radius-main)
+}
+.participants-soO0aD {
+    background: var(--background-secondary);
+    margin-top: -16px;
+    padding-top: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: var(--border-radius-main);
+    border-bottom-right-radius: var(--border-radius-main);
+}
+.videoControls-24w7Xp .gradientTop-3UWg3T, .videoControls-24w7Xp .gradientBottom-3X4SdK {
+    display: none;
+}
+.videoControls-24w7Xp {
+    padding-left: 0;
+    padding-right: 0;
+}
+.theme-dark.participants-1e7HCI {
+    background: var(--background-secondary-alt);
+    border-radius: var(--border-radius-main);
+    border: none;
+}
+.theme-dark.participants-1e7HCI .children-19S4PO {
+    margin-left: 10px;
+}
+.callContainer-3UuV6S .container-2t1JyW {
+    position: relative;
+    background: var(--background-secondary-alt);
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 68px;
+    border-radius: var(--border-radius-main)
+}
+.rowContainer-2tYerQ {
+    background: var(--background-secondary);
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: var(--border-radius-main);
+    border-bottom-right-radius: var(--border-radius-main);
+}
+.callContainer-3UuV6S .divider-JMvf_l {
+    display: none;
+}
+.callContainer-3UuV6S .colorHeaderPrimary-26Jzh-.size20-17Iy80.title-2eOBcL {
+    margin-left: 10px;
+}
+.callContainer-3UuV6S .subtitle-1ydIDA {
+    margin-left: 10px;
+}
 
 /* ----------  Right Click Popout  ---------- */
 #message {border-radius: var(--border-radius-main);}
@@ -2228,7 +2336,7 @@
 /* ----------  Tooltips  ---------- */
 
 /* Main Tooltip */
-.tooltip-2QfLtc {border-radius: var(--border-radius-alt);}
+.tooltip-2QfLtc {border-radius: var(--border-radius-alt);position: relative;z-index: 1005 !important;}
 
 /* Sticker Info Tooltip */
 .popoutContainer-1MXdqN {border-radius: var(--border-radius-main);}
@@ -2711,3 +2819,13 @@
 .inputWrapper-31_8H8.input--jS-j2 {
     border-radius: var(--border-radius-main) !important;
 }
+
+
+
+
+
+
+
+
+
+
