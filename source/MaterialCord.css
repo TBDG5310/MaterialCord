@@ -179,6 +179,8 @@
 
 /* ----------------------------------------  Vars  ---------------------------------------- */
 
+@import url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2);
+
 .theme-light {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -237,9 +239,21 @@
 }
 
 :root {
+    --border-radius-main: 25px;
+    --border-radius-alt: 12.5px;
+
     --blurple: rgb(114, 137, 218);
 }
 
+.theme-dark {
+    --background-guilds: #292b2f; /* Default is background-secondary-alt #292b2f */
+    --background-channels: #2f3136; /* Default is background-secondary #2f3136 */
+    --background-chat: #36393f; /* Default is background-primary #36393f */
+    --background-members: #2f3136; /* Default is background-secondary #2f3136 */
+
+    --background-settings-sidebar: #292b2f; /* Default is background-secondary-alt #292b2f */
+    --background-settings-content: #36393f; /* Default is background-primary #36393f */
+}
 
 
 
@@ -1456,6 +1470,21 @@
 .headerSpotify-zpWxgT, .headerStreaming-2FjmGz,
 .headerXbox-3G-4PF {
     border-radius: var(--border-radius-main);
+    background: var(--background-secondary-alt) !important;
+}
+.profileBanner-j34RzR {
+    position: relative;
+    border-radius: var(--border-radius-main);
+    z-index: 1;
+}
+.profileBadges-1dm1_q {
+    margin-top: 20px;
+}
+.headerTop-2y3V6H {
+    border-bottom-left-radius: var(--border-radius-main);
+    border-bottom-right-radius: var(--border-radius-main);
+    padding-top: 65px;
+    margin-top: -17px;
 }
 .customStatus-1bh2V9 {
     background: var(--background-secondary-alt);
@@ -1464,8 +1493,13 @@
     border-radius: var(--border-radius-main);
 }
 .activityUserPopout-2yItg2 {
-    margin: 0px 10px 10px 10px;
-    border-radius: var(--border-radius-main);
+    margin: -18px 0px 10px 0px;
+    padding-top: 25px !important;
+    border-bottom-left-radius: var(--border-radius-main);
+    border-bottom-right-radius: var(--border-radius-main);
+    border: none;
+    background: var(--blurple);
+    padding: 10px;
 }
 .headerTop-3C2Zn0 {margin-top: 35px;}
 .avatarWrapper-3H_478 {
@@ -1546,7 +1580,7 @@
     margin: auto auto;
     border-radius: 25px;
     margin-bottom: 120px;
-    top: 60px;
+    top: 68px;
     position: relative;
 }
 .base-3dtUhz {background:var(--background-tertiary)}
@@ -2162,7 +2196,7 @@
         font-size: usnet !important;
         color: unset !important;
         font-weight: unset !important;
-}
+}*/
 
 /* ----------  Top Notice's  ---------- */
 
@@ -2829,3 +2863,162 @@
 
 
 
+
+
+
+
+
+
+/*.typeWindows-1za-n7 {
+    background: var(--background-secondary);
+    border-radius: var(--border-radius-main);
+    height: 48px;
+    padding: unset;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.typeWindows-1za-n7::after {
+    content: '';
+    position: fixed;
+    background: var(--background-secondary-alt);
+    border-radius: var(--border-radius-main);
+    width: 240px;
+    height: 48px;
+    right: 0px;
+    top: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.winButtonClose-1HsbF- {
+    position: fixed;
+    z-index: 1;
+    border-radius: var(--border-radius-main);
+    background: #ed4245;
+    height: 48px;
+    width: 48px;
+    top: 0px;
+    right: 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.winButtonClose-1HsbF- svg polygon {
+    fill: white !important;
+}
+.winButtonClose-1HsbF-:hover, .winButtonMinMax-PBQ2gm:hover {
+    background: var(--background-accent) !important;
+}
+.winButtonMinMax-PBQ2gm:nth-child(3) {
+    position: fixed;
+    z-index: 1;
+    border-radius: var(--border-radius-main);
+    background: var(--background-secondary);
+    height: 48px;
+    width: 48px;
+    top: 0px;
+    right: 59px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.winButtonMinMax-PBQ2gm:nth-child(4) {
+    position: fixed;
+    z-index: 1;
+    border-radius: var(--border-radius-main);
+    background: var(--background-secondary);
+    height: 48px;
+    width: 48px;
+    top: 0px;
+    right: 123px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+/* Watermark? */
+
+
+
+
+
+/*.wordmarkWindows-1v0lYD.wordmark-2iDDfm {
+    pointer-events: all;
+    -webkit-app-region: none !important;
+}
+.wordmarkWindows-1v0lYD {
+    background: var(--blurple);
+    background-image: url(https://imgur.com/JhcFd2x);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 40px;
+    top: 0px;
+    left: 10px;
+    margin-top: 10px;
+    border-radius: var(--border-radius-main);
+    transition: width .2s ease-in-out;
+}
+.wordmarkWindows-1v0lYD:hover {
+    width: 100px;
+    background-image: none;
+}
+.wordmarkWindows-1v0lYD svg path {
+    display: none;
+}
+.wordmarkWindows-1v0lYD svg {
+    display: none;
+}
+
+.wordmarkWindows-1v0lYD::before {
+    content: 'MaterialCord';
+    position: fixed;
+    z-index: 1000;
+    width: 200px;
+    height: 50px;
+    top: 10px;
+    left: 110px;
+    color: white;
+    background-image: url();
+    background: none;
+}*/
+
+
+
+
+
+
+
+
+
+.userPopout-3XzG_A[aria-label="TBDG"] .profileBanner-j34RzR {
+    --user-popout-position: center;
+    height: 120px;
+    background: url(https://imgur.com/UImtFb7.png) center / cover;
+}
+.userPopout-3XzG_A[aria-label="TBDG"] .avatarPositionNormal-1CZUPk {
+    top: 76px;
+}
+
+.userPopout-3XzG_A[aria-label="WaterHose"] .profileBanner-j34RzR {
+    --user-popout-position: center;
+    height: 300px;
+    background: url(https://imgur.com/ePffwvA.png) center / cover;
+}
+.userPopout-3XzG_A[aria-label="WaterHose"] .avatarPositionNormal-1CZUPk {
+    top: 256px;
+}
+
+
+.userPopout-3XzG_A[style*="--user-background"] .profileBanner-j34RzR {
+    --user-popout-position: center;
+    height: 120px;
+    background: var(--user-background) center / cover;
+}
+.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+    top: 76px;
+}
+
+/*.userPopout-3XzG_A[aria-label="TBDG"] .profileBanner-j34RzR {
+    background-image: url(https://imgur.com/UImtFb7.png);
+    background-size: contain;
+}
